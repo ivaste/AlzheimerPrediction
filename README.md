@@ -1,6 +1,17 @@
 # AlzheimerPrediction
 Alzheimer Prediction with DeepLearning
 
+## Features
+
+- [x] Load Dataset
+- [x] Split Dataset in Train and Test
+- [x] Train on 5 MRI
+- [x] Test on Test Set
+- [ ] Train on the entire Train Set
+- [ ] Cross fold validation
+- [ ] Data Augmentation
+- [ ] Explore Hyperparameters
+
 ## Installation
 
 ...
