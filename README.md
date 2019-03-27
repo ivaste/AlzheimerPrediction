@@ -10,7 +10,11 @@ Alzheimer Prediction with DeepLearning
 - [ ] Train on the entire Train Set
 - [ ] Cross fold validation
 - [ ] Data Augmentation
-- [ ] Explore Hyperparameters
+- [ ] CN vs MCIc: Explore Hyperparameters
+- [ ] CN vs AD: Code
+- [ ] CN vs AD Explore Hyperparameters
+- [ ] MCInc vs MCIc: Code
+- [ ] MCInc vs MCIc: Explore Hyperparameters
 
 ## Installation
 
