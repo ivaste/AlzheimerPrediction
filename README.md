@@ -12,18 +12,19 @@ Alzheimer Prediction with DeepLearning
 
 ## Features
 
-- [x] Load Dataset
-- [x] Split Dataset in Train and Test
-- [x] Train on 5 MRI
-- [x] Test on Test Set
-- [ ] Train on the entire Train Set
-- [ ] Cross fold validation
-- [ ] Data Augmentation
+- [x] Code for Load Dataset
+- [x] Code for Split Dataset in Train and Test
+- [x] Code for Train on 5 MRI
+- [x] Code for Test on Test Set
+- [x] Code for Train on the entire Train Set
+- [ ] Code for Cross fold validation
+- [ ] Code for Data Augmentation
 - [ ] CN vs MCIc: Explore Hyperparameters
 - [ ] CN vs AD: Code
 - [ ] CN vs AD Explore Hyperparameters
 - [ ] MCInc vs MCIc: Code
 - [ ] MCInc vs MCIc: Explore Hyperparameters
+- [ ] Try extractig picture from a different angle
 
 ## Installation
 
