@@ -1,4 +1,6 @@
 %Training CN vc MCIc
+% This code is for JUST 1 FOLD !!!!!!!!
+% Code has to be modified to perfom 20-fold validation and Data Augmentation
 
 %{ 
 - Define the network
@@ -7,6 +9,7 @@
     - Load .mat files
     - Concatenate CN_training, CN_testing,... in a single cell array
     - Transform the 238 MRI images into 23800 227x227x3 Images (~30GB)
+    - Data Augmentation (!!!TODO!!!)
 - Cross Fold Validation (for 20 fold):
     - Find patterns to use for Testing (index==fold) and Training (index!=fold)
       Split the dataset in Training and Testing for this fold
@@ -59,8 +62,8 @@ dataset=cat(1,CN_training,CN_testing,MCIc_training,MCIc_testing);
 % Create label array
 lengthClass1=(length(CN_training)+length(CN_testing));
 lengthClass2=(length(MCIc_training)+length(MCIc_testing));
-label(1:lengthClass1)=1; %Cognitive Normal = 1
-label(lengthClass1:lengthClass1+lengthClass2)=2;
+trainingLabel(1:lengthClass1)=1; %Cognitive Normal = 1
+trainingLabel(lengthClass1:lengthClass1+lengthClass2)=2;
 
 clear CN_training CN_testing MCIc_training MCIc_testing lengthClass1 lengthClass2
 
@@ -69,7 +72,7 @@ Images=[];
 label=[]; % labels of classes 
 labelID=[]; % labels of ID
 tmpTR=1;
-for i=1:length(indicesVector)
+for i=1:length(dataset)
     % Extract single MRI
     IMG=trainingData{i};
 
@@ -165,7 +168,7 @@ confusionchart(testLabel,predictions)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+%Function that Transform 1 MRI image in 100 227x227x3 pictures
 function [IMG]=mriToCNN(IMG,siz) 
     % Removing NaN values
     IMG(find(isnan(IMG)))=0;
