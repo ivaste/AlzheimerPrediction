@@ -1,4 +1,4 @@
-# AlzheimerPrediction
+# Alzheimer Prediction
 Alzheimer Prediction with DeepLearning
 
 ## Table of Contents
@@ -10,6 +10,11 @@ Alzheimer Prediction with DeepLearning
 - [Team](#team)
 - [License](#license)
 
+## Overview
+
+...
+
+
 ## Features
 
 - [x] Code for Load Dataset
@@ -17,14 +22,19 @@ Alzheimer Prediction with DeepLearning
 - [x] Code for Train on 5 MRI
 - [x] Code for Test on Test Set
 - [x] Code for Train on the entire Train Set
-- [ ] Code for Cross fold validation
-- [ ] Code for Data Augmentation
-- [ ] CN vs MCIc: Explore Hyperparameters
-- [ ] CN vs AD: Code
-- [ ] CN vs AD Explore Hyperparameters
-- [ ] MCInc vs MCIc: Code
-- [ ] MCInc vs MCIc: Explore Hyperparameters
-- [ ] Try extractig picture from a different angle
+- [x] Code for Cross fold validation
+- [x] Code for Train on reduced Dataset
+- [x] Code for Saving metrics and trained models
+- [ ] Code for Changing problem quickly
+- [ ] CN vs MCIc: Explore Hyperparameters on x-axis
+- [ ] CN vs MCIc: Explore Hyperparameters on y-axis
+- [ ] CN vs MCIc: Explore Hyperparameters on z-axis
+- [ ] CN vs AD: Explore Hyperparameters on x-axis
+- [ ] CN vs AD: Explore Hyperparameters on y-axis
+- [ ] CN vs AD: Explore Hyperparameters on z-axis
+- [ ] MCInc vs MCIc: Explore Hyperparameters on x-axis
+- [ ] MCInc vs MCIc: Explore Hyperparameters on y-axis
+- [ ] MCInc vs MCIc: Explore Hyperparameters on z-axis
 
 ## Installation
 
