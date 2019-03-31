@@ -1,6 +1,5 @@
 %Training CN vc MCIc
-% This code is for JUST 1 FOLD !!!!!!!!
-% Code has to be modified to perfom 20-fold validation and Data Augmentation
+% This code is for ONE FOLD ONLY and has to be modified to perfom 20-fold Validation and Data Augmentation
 
 %{ 
 - Define the network
@@ -8,20 +7,17 @@
 - Load the Dataset:
     - Load .mat files
     - Concatenate CN_training, CN_testing,... in a single cell array
-    - Transform the 238 MRI images into 23800 227x227x3 Images (~30GB)
+    - Transform the 238 MRI images into 23800 227x227x3 images (~30GB)
     - Data Augmentation (!!!TODO!!!)
-- Cross Fold Validation (for 20 fold):
+- Cross Fold Validation (for 20 folds):
     - Find patterns to use for Testing (index==fold) and Training (index!=fold)
       Split the dataset in Training and Testing for this fold
-    - Shuffle the trainingImages (and respectively their labels)
+    - Shuffle the trainingImages (and  their labels, respectively)
     - Train
     - Save the trained model
     - Validate on test set
     - Compute Metrics
 %}
-
-
-
 
 clear all
 warning off
@@ -67,7 +63,7 @@ trainingLabel(lengthClass1:lengthClass1+lengthClass2)=2;
 
 clear CN_training CN_testing MCIc_training MCIc_testing lengthClass1 lengthClass2
 
-% Transform the 238 MRI images into 23800 227x227x3 Images
+% Transform the 238 MRI images into 23800 227x227x3 images
 Images=[];
 label=[]; % labels of classes 
 labelID=[]; % labels of ID
@@ -76,7 +72,7 @@ for i=1:length(dataset)
     % Extract single MRI
     IMG=trainingData{i};
 
-    % Transform MRI picture into 100 images 227x227x3
+    % Transform MRI picture into one hundred 227x227x3 images 
     IMG=mriToCNN(IMG,siz);
     Images(:,:,:,tmpTR:tmpTR+size(IMG,4)-1)=IMG;
 
@@ -100,7 +96,7 @@ end
     %the whole code below will be executed inside here
 %end
 
-fold=3; %just for now we train on 1 fold
+fold=3; %just for now we train on 1 single fold
 
 % Find patterns we will use for Testing (Indices==fold) and Training (Indices!=fold)
 % Split the dataset in Training and Testing for this fold
@@ -134,7 +130,6 @@ Y=categorical(trainingLabel',valueset);
 % Save the trained model
 save("trainedModel"+fold+".mat", "trainedNet");
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%% Validation
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -160,10 +155,6 @@ accuracy(fold)=(TP+TN)/(TP+TN+FP+FN)
 %accuracy = sum(predictions' == testLabel)/numel(testLabel)
 
 confusionchart(testLabel,predictions)
-
-
-
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
