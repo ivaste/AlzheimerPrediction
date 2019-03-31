@@ -25,6 +25,7 @@ Alzheimer Prediction with DeepLearning
 - [x] Code for Cross fold validation
 - [x] Code for Train on reduced Dataset
 - [x] Code for Saving metrics and trained models
+- [x] Code for different Axis
 - [ ] Code for Changing problem quickly
 - [ ] CN vs MCIc: Explore Hyperparameters on x-axis
 - [ ] CN vs MCIc: Explore Hyperparameters on y-axis
