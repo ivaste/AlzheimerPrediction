@@ -1,5 +1,6 @@
 # Alzheimer Prediction
-Alzheimer Prediction with DeepLearning
+Alzheimer Prediction with DeepLearning.
+Given a MRI (Magnetic Resonance Image) of the human brain, returns the probability of contracting Alzheimer's disease in the coming years. 
 
 ## Table of Contents
 - [Overview](#overview)
@@ -14,28 +15,54 @@ Alzheimer Prediction with DeepLearning
 
 ...
 
-
 ## Features
 
 - [x] Code for Load Dataset
 - [x] Code for Split Dataset in Train and Test
-- [x] Code for Train on 5 MRI
 - [x] Code for Test on Test Set
 - [x] Code for Train on the entire Train Set
 - [x] Code for Cross fold validation
-- [x] Code for Train on reduced Dataset
 - [x] Code for Saving metrics and trained models
 - [x] Code for different Axis
 - [x] Code for Changing problem quickly
-- [ ] CN vs MCIc: Explore Hyperparameters on x-axis
-- [ ] CN vs MCIc: Explore Hyperparameters on y-axis
-- [ ] CN vs MCIc: Explore Hyperparameters on z-axis
-- [ ] CN vs AD: Explore Hyperparameters on x-axis
-- [ ] CN vs AD: Explore Hyperparameters on y-axis
-- [ ] CN vs AD: Explore Hyperparameters on z-axis
-- [ ] MCInc vs MCIc: Explore Hyperparameters on x-axis
-- [ ] MCInc vs MCIc: Explore Hyperparameters on y-axis
-- [ ] MCInc vs MCIc: Explore Hyperparameters on z-axis
+- [ ] Method 1: for each axis compose a picture with the x,x,x slices
+	- [x] CN vs MCIc: Explore Hyperparameters on x-axis
+	- [x] CN vs MCIc: Explore Hyperparameters on y-axis
+	- [x] CN vs MCIc: Explore Hyperparameters on z-axis
+	- [ ] CN vs AD: Explore Hyperparameters on x-axis
+	- [ ] CN vs AD: Explore Hyperparameters on y-axis
+	- [ ] CN vs AD: Explore Hyperparameters on z-axis
+	- [ ] MCInc vs MCIc: Explore Hyperparameters on x-axis
+	- [ ] MCInc vs MCIc: Explore Hyperparameters on y-axis
+	- [ ] MCInc vs MCIc: Explore Hyperparameters on z-axis
+- [ ] Method 2: for each axis compose a picture with the x-k,x and x+k slices
+	- [ ] CN vs MCIc: Code
+	- [ ] CN vs MCIc: Explore Hyperparameters on x-axis
+	- [ ] CN vs MCIc: Explore Hyperparameters on y-axis
+	- [ ] CN vs MCIc: Explore Hyperparameters on z-axis
+	- [ ] CN vs AD: Code
+	- [ ] CN vs AD: Explore Hyperparameters on x-axis
+	- [ ] CN vs AD: Explore Hyperparameters on y-axis
+	- [ ] CN vs AD: Explore Hyperparameters on z-axis
+	- [ ] MCInc vs MCIc: Code
+	- [ ] MCInc vs MCIc: Explore Hyperparameters on x-axis
+	- [ ] MCInc vs MCIc: Explore Hyperparameters on y-axis
+	- [ ] MCInc vs MCIc: Explore Hyperparameters on z-axis
+- [ ] Method 3: Pick the middle axis of each MRI
+	- [ ] CN vs MCIc: Code
+	- [ ] CN vs MCIc: Explore Hyperparameters
+	- [ ] CN vs AD: Code
+	- [ ] CN vs AD: Explore Hyperparameters
+	- [ ] MCInc vs MCIc: Code
+	- [ ] MCInc vs MCIc: Explore Hyperparameters
+- [ ] Method 4: For each MRI choose 100 Voxels, for each voxel pick the x,y,z 32x32 slices
+	- [ ] CN vs MCIc: Code
+	- [ ] CN vs MCIc: Explore Hyperparameters
+	- [ ] CN vs AD: Code
+	- [ ] CN vs AD: Explore Hyperparameters
+	- [ ] MCInc vs MCIc: Code
+	- [ ] MCInc vs MCIc: Explore Hyperparameters
+
 
 ## Installation
 
