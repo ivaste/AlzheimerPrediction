@@ -4,7 +4,7 @@ Given a MRI (Magnetic Resonance Image) of the human brain, returns the probabili
 
 ## Table of Contents
 - [Overview](#overview)
-- [Features](#features)
+- [Todo](#todo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -15,7 +15,7 @@ Given a MRI (Magnetic Resonance Image) of the human brain, returns the probabili
 
 ...
 
-## Features
+## Todo
 
 - [x] Code for Load Dataset
 - [x] Code for Split Dataset in Train and Test
