@@ -36,7 +36,7 @@ Given a MRI (Magnetic Resonance Image) of the human brain, returns the probabili
 	- [ ] MCInc vs MCIc: Explore Hyperparameters on y-axis
 	- [ ] MCInc vs MCIc: Explore Hyperparameters on z-axis
 - [ ] Method 2: for each axis compose a picture with the x-k,x and x+k slices
-	- [ ] CN vs MCIc: Code
+	- [x] CN vs MCIc: Code
 	- [ ] CN vs MCIc: Explore Hyperparameters on x-axis
 	- [ ] CN vs MCIc: Explore Hyperparameters on y-axis
 	- [ ] CN vs MCIc: Explore Hyperparameters on z-axis
