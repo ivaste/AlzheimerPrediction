@@ -26,25 +26,28 @@ Given a MRI (Magnetic Resonance Image) of the human brain, returns the probabili
 - [x] Code for different Axis
 - [x] Code for Changing problem quickly
 - [ ] Method 1: for each axis compose a picture with the x,x,x slices
+	- [x] CN vs MCIc: Code
 	- [x] CN vs MCIc: Explore Hyperparameters on x-axis
 	- [x] CN vs MCIc: Explore Hyperparameters on y-axis
 	- [x] CN vs MCIc: Explore Hyperparameters on z-axis
-	- [ ] CN vs AD: Explore Hyperparameters on x-axis
-	- [ ] CN vs AD: Explore Hyperparameters on y-axis
-	- [ ] CN vs AD: Explore Hyperparameters on z-axis
+	- [x] CN vs AD: Code
+	- [x] CN vs AD: Explore Hyperparameters on x-axis
+	- [x] CN vs AD: Explore Hyperparameters on y-axis
+	- [x] CN vs AD: Explore Hyperparameters on z-axis
+	- [x] MCInc vs MCIc: Code
 	- [ ] MCInc vs MCIc: Explore Hyperparameters on x-axis
 	- [ ] MCInc vs MCIc: Explore Hyperparameters on y-axis
 	- [ ] MCInc vs MCIc: Explore Hyperparameters on z-axis
 - [ ] Method 2: for each axis compose a picture with the x-k,x and x+k slices
 	- [x] CN vs MCIc: Code
-	- [ ] CN vs MCIc: Explore Hyperparameters on x-axis
-	- [ ] CN vs MCIc: Explore Hyperparameters on y-axis
-	- [ ] CN vs MCIc: Explore Hyperparameters on z-axis
-	- [ ] CN vs AD: Code
-	- [ ] CN vs AD: Explore Hyperparameters on x-axis
-	- [ ] CN vs AD: Explore Hyperparameters on y-axis
-	- [ ] CN vs AD: Explore Hyperparameters on z-axis
-	- [ ] MCInc vs MCIc: Code
+	- [x] CN vs MCIc: Explore Hyperparameters on x-axis
+	- [x] CN vs MCIc: Explore Hyperparameters on y-axis
+	- [x] CN vs MCIc: Explore Hyperparameters on z-axis
+	- [x] CN vs AD: Code
+	- [x] CN vs AD: Explore Hyperparameters on x-axis
+	- [x] CN vs AD: Explore Hyperparameters on y-axis
+	- [x] CN vs AD: Explore Hyperparameters on z-axis
+	- [x] MCInc vs MCIc: Code
 	- [ ] MCInc vs MCIc: Explore Hyperparameters on x-axis
 	- [ ] MCInc vs MCIc: Explore Hyperparameters on y-axis
 	- [ ] MCInc vs MCIc: Explore Hyperparameters on z-axis
