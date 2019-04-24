@@ -25,7 +25,7 @@ Given a MRI (Magnetic Resonance Image) of the human brain, returns the probabili
 - [x] Code for Saving metrics and trained models
 - [x] Code for different Axis
 - [x] Code for Changing problem quickly
-- [ ] Method 1: for each axis compose a picture with the x,x,x slices
+- [x] Method 1: for each axis compose a picture with the x,x,x slices
 	- [x] CN vs MCIc: Code
 	- [x] CN vs MCIc: Explore Hyperparameters on x-axis
 	- [x] CN vs MCIc: Explore Hyperparameters on y-axis
@@ -35,10 +35,10 @@ Given a MRI (Magnetic Resonance Image) of the human brain, returns the probabili
 	- [x] CN vs AD: Explore Hyperparameters on y-axis
 	- [x] CN vs AD: Explore Hyperparameters on z-axis
 	- [x] MCInc vs MCIc: Code
-	- [ ] MCInc vs MCIc: Explore Hyperparameters on x-axis
-	- [ ] MCInc vs MCIc: Explore Hyperparameters on y-axis
-	- [ ] MCInc vs MCIc: Explore Hyperparameters on z-axis
-- [ ] Method 2: for each axis compose a picture with the x-k,x and x+k slices
+	- [x] MCInc vs MCIc: Explore Hyperparameters on x-axis
+	- [x] MCInc vs MCIc: Explore Hyperparameters on y-axis
+	- [x] MCInc vs MCIc: Explore Hyperparameters on z-axis
+- [x] Method 2: for each axis compose a picture with the x-k,x and x+k slices
 	- [x] CN vs MCIc: Code
 	- [x] CN vs MCIc: Explore Hyperparameters on x-axis
 	- [x] CN vs MCIc: Explore Hyperparameters on y-axis
@@ -48,22 +48,22 @@ Given a MRI (Magnetic Resonance Image) of the human brain, returns the probabili
 	- [x] CN vs AD: Explore Hyperparameters on y-axis
 	- [x] CN vs AD: Explore Hyperparameters on z-axis
 	- [x] MCInc vs MCIc: Code
-	- [ ] MCInc vs MCIc: Explore Hyperparameters on x-axis
-	- [ ] MCInc vs MCIc: Explore Hyperparameters on y-axis
-	- [ ] MCInc vs MCIc: Explore Hyperparameters on z-axis
+	- [x] MCInc vs MCIc: Explore Hyperparameters on x-axis
+	- [x] MCInc vs MCIc: Explore Hyperparameters on y-axis
+	- [x] MCInc vs MCIc: Explore Hyperparameters on z-axis
 - [ ] Method 3: Pick the middle axis of each MRI
-	- [ ] CN vs MCIc: Code
+	- [x] CN vs MCIc: Code
 	- [ ] CN vs MCIc: Explore Hyperparameters
-	- [ ] CN vs AD: Code
+	- [x] CN vs AD: Code
 	- [ ] CN vs AD: Explore Hyperparameters
-	- [ ] MCInc vs MCIc: Code
+	- [x] MCInc vs MCIc: Code
 	- [ ] MCInc vs MCIc: Explore Hyperparameters
 - [ ] Method 4: For each MRI choose 100 Voxels, for each voxel pick the x,y,z 32x32 slices
-	- [ ] CN vs MCIc: Code
+	- [x] CN vs MCIc: Code
 	- [ ] CN vs MCIc: Explore Hyperparameters
-	- [ ] CN vs AD: Code
+	- [x] CN vs AD: Code
 	- [ ] CN vs AD: Explore Hyperparameters
-	- [ ] MCInc vs MCIc: Code
+	- [x] MCInc vs MCIc: Code
 	- [ ] MCInc vs MCIc: Explore Hyperparameters
 
 
