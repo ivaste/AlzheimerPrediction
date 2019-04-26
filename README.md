@@ -51,20 +51,20 @@ Given a MRI (Magnetic Resonance Image) of the human brain, returns the probabili
 	- [x] MCInc vs MCIc: Explore Hyperparameters on x-axis
 	- [x] MCInc vs MCIc: Explore Hyperparameters on y-axis
 	- [x] MCInc vs MCIc: Explore Hyperparameters on z-axis
-- [ ] Method 3: Pick the middle axis of each MRI
+- [x] Method 3: Pick the middle axis of each MRI
 	- [x] CN vs MCIc: Code
-	- [ ] CN vs MCIc: Explore Hyperparameters
+	- [x] CN vs MCIc: Explore Hyperparameters
 	- [x] CN vs AD: Code
-	- [ ] CN vs AD: Explore Hyperparameters
+	- [x] CN vs AD: Explore Hyperparameters
 	- [x] MCInc vs MCIc: Code
-	- [ ] MCInc vs MCIc: Explore Hyperparameters
-- [ ] Method 4: For each MRI choose 100 Voxels, for each voxel pick the x,y,z 32x32 slices
+	- [x] MCInc vs MCIc: Explore Hyperparameters
+- [x] Method 4: For each MRI choose 100 Voxels, for each voxel pick the x,y,z 32x32 slices
 	- [x] CN vs MCIc: Code
-	- [ ] CN vs MCIc: Explore Hyperparameters
+	- [x] CN vs MCIc: Explore Hyperparameters
 	- [x] CN vs AD: Code
-	- [ ] CN vs AD: Explore Hyperparameters
+	- [x] CN vs AD: Explore Hyperparameters
 	- [x] MCInc vs MCIc: Code
-	- [ ] MCInc vs MCIc: Explore Hyperparameters
+	- [x] MCInc vs MCIc: Explore Hyperparameters
 
 
 ## Installation
