@@ -1,12 +1,10 @@
-# Alzheimer Prediction
+<h1 align="center"> Alzheimer Prediction <\h1>
 Given a MRI (Magnetic Resonance Image) of the human brain, returns the probability of contracting Alzheimer's disease in the coming years. 
 
 ![structure](https://github.com/ivaste/AlzheimerPrediction/blob/master/Documentation/Problem.jpg?raw=true)
 
 ## Table of Contents
 - [Overview](#overview)
-<!--- [Todo](#todo)-->
-- [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Team](#team)
@@ -15,10 +13,10 @@ Given a MRI (Magnetic Resonance Image) of the human brain, returns the probabili
 ## Overview
 <p style='text-align: justify;'>The early diagnosis of Alzheimer’s Disease (AD) and its prodromal form, Mild Cognitive Impairment (MCI), has been the subject of extensive research in recent years. Some recent studies have shown promising results in the diagnosis of AD and MCI using structural Magnetic Resonance Imaging (MRI) scans. In this paper, we propose the use of a Convolutional Neural Network (CNN) in the detection of AD and MCI. In particular, we used the 27-layered AlexNet for the binary classification on the Alzheimer’s Disease Neuroimaging Initiative (ADNI) dataset in a such particular way that allow us to achieve an overall accuracy up to 75% and outperform several classifiers from other studies.
 We tried 4 different methods:</p>
-- <a href="https://github.com/ivaste/AlzheimerPrediction/tree/master/Method%201" target="_blank">Method 1</a>
-- <a href="https://github.com/ivaste/AlzheimerPrediction/tree/master/Method%202" target="_blank">Method 2</a>
-- <a href="https://github.com/ivaste/AlzheimerPrediction/tree/master/Method%203" target="_blank">Method 3</a>
-- <a href="https://github.com/ivaste/AlzheimerPrediction/tree/master/Method%204" target="_blank">Method 4</a>
+- [Method 1](https://github.com/ivaste/AlzheimerPrediction/tree/master/Method%201)
+- [Method 2](https://github.com/ivaste/AlzheimerPrediction/tree/master/Method%202)
+- [Method 3](https://github.com/ivaste/AlzheimerPrediction/tree/master/Method%203)
+- [Method 4](https://github.com/ivaste/AlzheimerPrediction/tree/master/Method%204)
 <!--
 ## Todo
 
@@ -71,10 +69,6 @@ We tried 4 different methods:</p>
 	- [x] MCInc vs MCIc: Code
 	- [x] MCInc vs MCIc: Explore Hyperparameters
 
-
-## Installation
-
-...
 -->
 ## Usage
 Just download the code and the dataset from this repo and execute it with MATLAB.
