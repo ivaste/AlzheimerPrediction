@@ -1,4 +1,4 @@
-<h1 align="center"> Alzheimer Prediction <\h1>
+<h1 align="center"> Alzheimer Prediction </h1>
 Given a MRI (Magnetic Resonance Image) of the human brain, returns the probability of contracting Alzheimer's disease in the coming years. 
 
 ![structure](https://github.com/ivaste/AlzheimerPrediction/blob/master/Documentation/Problem.jpg?raw=true)
