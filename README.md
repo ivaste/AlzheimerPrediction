@@ -1,7 +1,7 @@
 # Alzheimer Prediction
 Given a MRI (Magnetic Resonance Image) of the human brain, returns the probability of contracting Alzheimer's disease in the coming years. 
 
-![structure](https://github.com/ivaste/AlzheimerPrediction/tree/master/Documentation/Problem.jpg)
+![structure](https://github.com/ivaste/AlzheimerPrediction/blob/master/Documentation/Problem.jpg?raw=true)
 
 ## Table of Contents
 - [Overview](#overview)
