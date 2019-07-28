@@ -84,7 +84,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 | [![Stefano Ivancich](https://avatars1.githubusercontent.com/u/36710626?s=200&v=4)](https://stefanoivancich.com)    | [![Luca Masiero](https://avatars1.githubusercontent.com/u/48916928?s=200&v=4?s=200)](https://github.com/TyllanDrake) |
 | <a href="https://github.com/ivaste" target="_blank">`github.com/ivaste`</a> | <a href="https://github.com/TyllanDrake" target="_blank">`github.com/TyllanDrake`</a> |
 | <a href="https://github.com/ivaste/AlzheimerPrediction/blob/master/Documentation/Ivancich%20Stefano%20Thesis.pdf" target="_blank">Thesis (Method 4)</a> | |
-| <a href="https://github.com/ivaste/AlzheimerPrediction/blob/master/Documentation/Ivancich%20Stefano%20Presentation.pdf" target="_blank">Presentation</a> | |
+| <a href="https://github.com/ivaste/AlzheimerPrediction/blob/master/Documentation/Ivancich%20Stefano%20Presentation.pdf" target="_blank">Presentation (Method 4)</a> | |
 
 
 ## License
